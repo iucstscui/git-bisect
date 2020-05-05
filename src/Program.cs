@@ -6,7 +6,7 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 50; ++i)
+            for (int i = 1; i <= 25; ++i)
             {
                 Console.WriteLine(FizzBuzz(i));
             }
