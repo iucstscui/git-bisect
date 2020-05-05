@@ -6,7 +6,7 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 25; ++i)
+            for (int i = 1; i <= 12; ++i)
             {
                 Console.WriteLine(FizzBuzz(i));
             }
@@ -20,7 +20,7 @@ namespace FizzBuzz
             }
             else if (num % 3 == 0)
             {
-                return "Fizz";
+                return "Fizzzzzzzzzzzzzzz";
             }
             else if (num % 5 == 0)
             {
